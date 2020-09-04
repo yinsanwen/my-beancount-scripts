@@ -35,10 +35,10 @@ def get_income_account_by_guess(from_user, description, time=None):
 
 
 def get_account_by_name(name, time=None):
-    if accounts.get(name, '') == '':
+    if accounts_map.get(name, '') == '':
         return "Unknown:" + name
     else:
-        return accounts.get(name)
+        return accounts_map.get(name)
 
 
 class DictReaderStrip(csv.DictReader):

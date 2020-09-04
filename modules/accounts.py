@@ -3,6 +3,38 @@ import re
 import dateparser
 
 
+def get_reality_account(importer, account_description):
+    if importer == 'wechat':
+        return accounts_map[importer][account_description]
+    return 'Unknown'
+
+
+def get_account(trade_partner, trade_description, trade_date):
+
+    for food in FOOD_SET:
+        if food in trade_partner or food in trade_description:
+            return 'Expenses:Food'
+
+    if '滴滴' in trade_partner or '滴滴' in trade_description:
+        if trade_date.hour >= 21 and trade_date.minute >= 30:
+            return 'Assets:Receivables:公司报销'
+        else:
+            return 'Expenses:Transport:打车'
+
+
+
+
+
+
+    return 'Unknown'
+
+
+
+FOOD_SET = {'美食', '外卖', '餐厅', 'MTDP', '餐饮'}
+
+TRANSPORT_SET = {'滴滴'}
+
+
 def get_eating_account(from_user, description, time=None):
     if time == None or not hasattr(time, 'hour'):
         return 'Expenses:Eating:Others'
@@ -29,18 +61,18 @@ public_accounts = [
 
 credit_cards = {
     '中信银行': 'Liabilities:CreditCard:CITIC',
+    '交通银行(4830)': 'Liabilities:CreditCard:交通银行'
 }
-
-accounts = {
-    "余额宝": 'Assets:Company:Alipay:MonetaryFund',
-    '余利宝': 'Assets:Bank:MyBank',
-    '花呗': 'Liabilities:Company:Huabei',
-    '建设银行': 'Liabilities:CreditCard:CCB',
-    '零钱': 'Assets:Balances:WeChat',
+accounts_map = {
+    'wechat': {
+        '零钱': 'Assets:Cash:WeChat',
+        '中国银行(1886)': 'Assets:Bank:中国银行1886',
+        '交通银行(4830)': 'Liabilities:CreditCard:交通银行4830',
+    }
 }
 
 descriptions = {
-    #'滴滴打车|滴滴快车': get_didi,
+    # '滴滴打车|滴滴快车': get_didi,
     '余额宝.*收益发放': 'Assets:Company:Alipay:MonetaryFund',
     '转入到余利宝': 'Assets:Bank:MyBank',
     '花呗收钱服务费': 'Expenses:Fee',

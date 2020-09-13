@@ -3,16 +3,23 @@ import re
 import dateparser
 
 
-def get_reality_account(importer, account_description):
+def get_reality_account(row, importer, account_description):
     if importer == 'wechat':
+        if (row['交易类型'] == '转账' or row['交易类型'] == '微信红包') and row['当前状态'] == '已存入零钱':
+            return accounts_map[importer]['零钱']
+
         return accounts_map[importer][account_description]
+
     return 'Unknown'
 
 
-def get_account(trade_partner, trade_description, trade_date):
+def get_account(trade_partner, trade_description, trade_date, trade_comment):
 
-    for food in FOOD_SET:
-        if food in trade_partner or food in trade_description:
+    if '押金' in trade_partner or '押金' in trade_description:
+        return 'Assets:Receivables:押金'
+
+    for item in FOOD_SET:
+        if item in trade_partner or item in trade_description:
             return 'Expenses:Food'
 
     if '滴滴' in trade_partner or '滴滴' in trade_description:
@@ -21,18 +28,19 @@ def get_account(trade_partner, trade_description, trade_date):
         else:
             return 'Expenses:Transport:打车'
 
+    if '单车' in trade_partner or '单车' in trade_description:
+        return 'Expenses:Transport:单车'
 
-
-
-
+    if '搬家' in trade_partner or '搬家' in trade_description or '搬家' in trade_comment:
+        return 'Expenses:Housing:搬家'
 
     return 'Unknown'
 
 
-
-FOOD_SET = {'美食', '外卖', '餐厅', 'MTDP', '餐饮'}
+FOOD_SET = {'美食', '外卖', '餐厅', 'MTDP', '餐饮', '便利', '麦当劳', '超市', '麻辣烫', '和合谷'}
 
 TRANSPORT_SET = {'滴滴'}
+
 
 
 def get_eating_account(from_user, description, time=None):
@@ -68,6 +76,7 @@ accounts_map = {
         '零钱': 'Assets:Cash:WeChat',
         '中国银行(1886)': 'Assets:Bank:中国银行1886',
         '交通银行(4830)': 'Liabilities:CreditCard:交通银行4830',
+        '浦发银行(5278)': 'Liabilities:CreditCard:浦发银行5278'
     }
 }
 

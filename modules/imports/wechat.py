@@ -24,7 +24,7 @@ class WeChat(Base):
     def __init__(self, filename, byte_content, entries, option_map):
         content = byte_content.decode("utf-8-sig")
         lines = content.split("\n")
-        if (lines[0].replace(',', '') != '微信支付账单明细\r'):
+        if (lines[0].replace(',', '').strip() != '微信支付账单明细'):
             raise Exception('Not WeChat Trade Record!')
 
         print('Import WeChat: ' + lines[2])
@@ -49,9 +49,12 @@ class WeChat(Base):
         trade_account = row['支付方式']
         trade_partner = row['交易对方']
         trade_description = row['商品']
+        trade_comment = row['备注']
 
         meta = {}
         meta['trade_time'] = row['交易时间']
+        if trade_comment != '/':
+            meta['comment'] = trade_comment
 
         entry = Transaction(meta, trade_time.strftime('%Y-%m-%d'), '*', trade_partner, trade_description,
                             data.EMPTY_SET,
@@ -59,13 +62,14 @@ class WeChat(Base):
 
         amount1 = trade_amount
         if row['收/支'] == '支出':
-            amount1 = trade_amount * -1
-        data.create_simple_posting(entry, accounts.get_reality_account('wechat', trade_account), amount1,
+            amount1 = '-' + trade_amount
+        data.create_simple_posting(entry, accounts.get_reality_account(row, 'wechat', trade_account), amount1,
                                        'CNY')
 
-        if trade_type == '商户消费':
-            data.create_simple_posting(entry, accounts.get_account(trade_partner, trade_description, trade_time),
+        if trade_type == '商户消费' or trade_type == '扫二维码付款':
+            data.create_simple_posting(entry, accounts.get_account(trade_partner, trade_description, trade_time, trade_comment),
                                        trade_amount, 'CNY')
+
 
         return entry
 

@@ -2,11 +2,14 @@
 1970-01-01 open Assets:Bank:中国银行1886
 1970-01-01 open Assets:Bank:招商银行
 
+
 1970-01-01 open Assets:Receivables:公司报销
+1970-01-01 open Assets:Receivables:押金
+
 
 # Liabilities
 2020-08-25 open Liabilities:CreditCard:交通银行4830
-2020-08-25 open Liabilities:CreditCard:浦发银行
+2020-08-25 open Liabilities:CreditCard:浦发银行5278
 2020-08-25 open Liabilities:CreditCard:招商银行
 2019-09-01 open Liabilities:Payable:谢云辉
 2019-09-01 open Liabilities:Payable:六文 
@@ -24,6 +27,7 @@
 1970-01-01 open Expenses:Clothing:化妆品
 
 1970-01-01 open Expenses:Housing
+1970-01-01 open Expenses:Housing:搬家
 1970-01-01 open Expenses:Housing:房租
 1970-01-01 open Expenses:Housing:水电煤
 1970-01-01 open Expenses:Housing:维修
@@ -34,7 +38,7 @@
 1970-01-01 open Expenses:Transport:飞机
 1970-01-01 open Expenses:Transport:火车
 1970-01-01 open Expenses:Transport:打车
-1970-01-01 open Expenses:Transport:自行车
+1970-01-01 open Expenses:Transport:单车
 1970-01-01 open Expenses:Transport:租车
 1970-01-01 open Expenses:Transport:开车
 

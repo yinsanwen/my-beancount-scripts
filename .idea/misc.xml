@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (my-beancount-scripts)" project-jdk-type="Python SDK" />
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.7 (beanFolder)" project-jdk-type="Python SDK" />
+>>>>>>> 4deb8556f17effbec8f9b65ed2801c6a31e09580
 </project>

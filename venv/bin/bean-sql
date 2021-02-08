@@ -1,0 +1,4 @@
+#!/Users/yinsanwen/personal/beancount/repo/my-beancount-scripts/venv/bin/python
+__copyright__ = "Copyright (C) 2013-2017  Martin Blais"
+__license__ = "GNU GPLv2"
+from beancount.scripts.sql import main; main()

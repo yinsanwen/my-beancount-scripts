@@ -1,18 +1,54 @@
 # Asserts
 1970-01-01 open Assets:Bank:中国银行1886
-1970-01-01 open Assets:Bank:招商银行
-
+1970-01-01 open Assets:Bank:招商银行0612
+1970-01-01 open Assets:Bank:微信钱包
 1970-01-01 open Assets:Receivables:公司报销
+1970-01-01 open Assets:Receivables:记账过渡户
+1970-01-01 open Assets:Receivables:押金户
+
+1970-01-01 open Assets:Bank:老婆微信钱包
+
 
 # Liabilities
-2020-08-25 open Liabilities:CreditCard:交通银行4830
-2020-08-25 open Liabilities:CreditCard:浦发银行
-2020-08-25 open Liabilities:CreditCard:招商银行
-2019-09-01 open Liabilities:Payable:谢云辉
-2019-09-01 open Liabilities:Payable:六文 
+1970-01-01 open Liabilities:CreditCard:交通银行4830
+1970-01-01 open Liabilities:CreditCard:浦发银行5278
+1970-01-01 open Liabilities:CreditCard:招商银行9619
+1970-01-01 open Liabilities:Payable:谢云辉
+1970-01-01 open Liabilities:Payable:六文
 
 
 # Expenses
+
+1970-01-01 open Expenses:Food:日常吃喝
+1970-01-01 open Expenses:Food:工作聚餐
+1970-01-01 open Expenses:Food:家庭聚餐
+
+1970-01-01 open Expenses:Housing:房租
+1970-01-01 open Expenses:Housing:水电煤
+
+1970-01-01 open Expenses:Transport:打车
+1970-01-01 open Expenses:Transport:火车
+1970-01-01 open Expenses:Transport:飞机
+1970-01-01 open Expenses:Transport:单车
+1970-01-01 open Expenses:Transport:地铁
+1970-01-01 open Expenses:Transport:租车
+1970-01-01 open Expenses:Transport:加油费
+1970-01-01 open Expenses:Transport:停车费
+1970-01-01 open Expenses:Transport:高速费
+1970-01-01 open Expenses:Transport:维修费
+
+1970-01-01 open Expenses:Communication:电话费
+1970-01-01 open Expenses:Communication:宽带费
+
+1970-01-01 open Expenses:Consumption:充电宝
+1970-01-01 open Expenses:Consumption:软件订阅购买
+1970-01-01 open Expenses:Consumption:电子产品
+
+1970-01-01 open Expenses:Favor:同事人情
+1970-01-01 open Expenses:Favor:亲人人情
+1970-01-01 open Expenses:Favor:朋友人情
+
+
 1970-01-01 open Expenses:Food
 1970-01-01 open Expenses:Food:外卖
 1970-01-01 open Expenses:Food:在家吃
@@ -24,24 +60,14 @@
 1970-01-01 open Expenses:Clothing:化妆品
 
 1970-01-01 open Expenses:Housing
-1970-01-01 open Expenses:Housing:房租
-1970-01-01 open Expenses:Housing:水电煤
 1970-01-01 open Expenses:Housing:维修
 1970-01-01 open Expenses:Housing:小家电
 1970-01-01 open Expenses:Housing:大家电
 
-1970-01-01 open Expenses:Transport
-1970-01-01 open Expenses:Transport:飞机
-1970-01-01 open Expenses:Transport:火车
-1970-01-01 open Expenses:Transport:打车
-1970-01-01 open Expenses:Transport:自行车
-1970-01-01 open Expenses:Transport:租车
-1970-01-01 open Expenses:Transport:开车
 
 1970-01-01 open Expenses:Education
 1970-01-01 open Expenses:Education:妞妞
-1970-01-01 open Expenses:Education:郎朗
-1970-01-01 open Expenses:Education
+1970-01-01 open Expenses:Education:朗朗
 
 1970-01-01 open Expenses:Healthcare
 
@@ -51,7 +77,8 @@
 
 
 # Income
-
+1970-01-01 open Income:Other:收红包
+1970-01-01 open Income:Other:活动奖励
 
 # Equity
 

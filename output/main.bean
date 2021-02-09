@@ -2,6 +2,7 @@ option "operating_currency" "CNY" ;账本主货币
 
 
 include "accounts.bean"
+include "out.bean"
 
 
 2020-08-25 * "喜茶" "奶茶"

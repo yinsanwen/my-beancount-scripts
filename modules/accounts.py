@@ -7,7 +7,8 @@ def get_reality_account(row, importer, account_description):
     if importer == 'wechat':
         if (row['交易类型'] == '转账' or row['交易类型'] == '微信红包') and row['当前状态'] == '已存入零钱':
             return accounts_map[importer]['零钱']
-
+        if row['当前状态'] == '充值成功':
+            return accounts_map[importer]['零钱']
         return accounts_map[importer][account_description]
 
     return 'Unknown'

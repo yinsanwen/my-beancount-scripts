@@ -1,502 +1,481 @@
 
 2020-07-31 * "3号楼108超市" "收款方备注:二维码收款"
   trade_time: "2020-07-31 23:16:33"
-  Assets:Cash:WeChat  -12.00 CNY
-  Expenses:Food        12.00 CNY
 
 2020-07-31 * "一点通" "收款方备注:二维码收款"
-  comment: "人工搬家费"
   trade_time: "2020-07-31 22:57:56"
-  Assets:Cash:WeChat   -200.00 CNY
-  Expenses:Housing:搬家   200.00 CNY
 
 2020-07-31 * "长城物业有限公司北京物业管理分公司" "长城物业有限公司北京物业管理分公司"
   trade_time: "2020-07-31 21:14:47"
-  Liabilities:CreditCard:交通银行4830  -1.00 CNY
-  Unknown                           1.00 CNY
+  Liabilities:CreditCard:交通银行4830  1.00 CNY
+  Unknown                          1.00 CNY
 
 2020-07-31 * "货拉拉搬家版" "货拉拉搬家车费"
   trade_time: "2020-07-31 17:10:35"
-  Liabilities:CreditCard:交通银行4830  -182.00 CNY
-  Expenses:Housing:搬家               182.00 CNY
+  Liabilities:CreditCard:交通银行4830  182.00 CNY
+  Unknown                          182.00 CNY
 
 2020-07-31 * "货拉拉用户" "货拉拉用户"
   trade_time: "2020-07-31 17:09:36"
-  Liabilities:CreditCard:交通银行4830  125.00 CNY
 
 2020-07-31 * "货拉拉用户" "货拉拉搬家车费"
   trade_time: "2020-07-31 14:29:55"
-  Liabilities:CreditCard:交通银行4830  -125.00 CNY
-  Expenses:Housing:搬家               125.00 CNY
+  Liabilities:CreditCard:交通银行4830  125.00 CNY
+  Unknown                          125.00 CNY
 
 2020-07-31 * "滴滴出行" "滴滴快车-陈师傅"
   trade_time: "2020-07-31 14:03:51"
-  Liabilities:CreditCard:交通银行4830  -9.22 CNY
-  Expenses:Transport:打车             9.22 CNY
+  Liabilities:CreditCard:交通银行4830  9.22 CNY
+  Expenses:Transport:打车            9.22 CNY
 
 2020-07-31 * "粤港茶餐厅" "MTDP-粤港茶餐厅"
   trade_time: "2020-07-31 13:10:14"
-  Liabilities:CreditCard:交通银行4830  -29.00 CNY
-  Expenses:Food                     29.00 CNY
+  Liabilities:CreditCard:交通银行4830  29.00 CNY
+  Expenses:Food                    29.00 CNY
 
 2020-07-31 * "滴滴出行" "滴滴专车-朱师傅"
   trade_time: "2020-07-31 10:04:17"
-  Liabilities:CreditCard:交通银行4830  -59.80 CNY
-  Expenses:Transport:打车             59.80 CNY
+  Liabilities:CreditCard:交通银行4830  59.80 CNY
+  Expenses:Transport:打车            59.80 CNY
 
 2020-07-30 * "滴滴出行" "滴滴快车-武师傅"
   trade_time: "2020-07-30 14:39:25"
-  Liabilities:CreditCard:交通银行4830  -9.04 CNY
-  Expenses:Transport:打车             9.04 CNY
+  Liabilities:CreditCard:交通银行4830  9.04 CNY
+  Expenses:Transport:打车            9.04 CNY
 
 2020-07-30 * "粤港茶餐厅" "MTDP-粤港茶餐厅"
   trade_time: "2020-07-30 12:13:23"
-  Liabilities:CreditCard:交通银行4830  -28.00 CNY
-  Expenses:Food                     28.00 CNY
+  Liabilities:CreditCard:交通银行4830  28.00 CNY
+  Expenses:Food                    28.00 CNY
 
 2020-07-30 * "滴滴出行" "滴滴专车-李师傅"
   trade_time: "2020-07-30 10:00:24"
-  Liabilities:CreditCard:交通银行4830  -66.45 CNY
-  Expenses:Transport:打车             66.45 CNY
+  Liabilities:CreditCard:交通银行4830  66.45 CNY
+  Expenses:Transport:打车            66.45 CNY
 
 2020-07-29 * "滴滴出行" "滴滴快车-白师傅"
   trade_time: "2020-07-29 21:41:45"
-  Liabilities:CreditCard:交通银行4830  -20.05 CNY
-  Assets:Receivables:公司报销           20.05 CNY
+  Liabilities:CreditCard:交通银行4830  20.05 CNY
+  Assets:Receivables:公司报销          20.05 CNY
 
 2020-07-29 * "椒傲少年•酸菜鱼@米饭" "MTDP-椒傲少年•酸菜鱼@米饭"
   trade_time: "2020-07-29 18:35:16"
-  Liabilities:CreditCard:交通银行4830  -23.00 CNY
-  Expenses:Food                     23.00 CNY
+  Liabilities:CreditCard:交通银行4830  23.00 CNY
+  Expenses:Food                    23.00 CNY
 
 2020-07-29 * "你来我往美食工坊" "你来我往美食工坊-锐创国际店"
   trade_time: "2020-07-29 12:52:08"
-  Liabilities:CreditCard:交通银行4830  -19.00 CNY
-  Expenses:Food                     19.00 CNY
+  Liabilities:CreditCard:交通银行4830  19.00 CNY
+  Expenses:Food                    19.00 CNY
 
 2020-07-29 * "滴滴出行" "滴滴专车-王师傅"
   trade_time: "2020-07-29 09:35:25"
-  Liabilities:CreditCard:交通银行4830  -66.25 CNY
-  Expenses:Transport:打车             66.25 CNY
+  Liabilities:CreditCard:交通银行4830  66.25 CNY
+  Expenses:Transport:打车            66.25 CNY
 
 2020-07-28 * "滴滴出行" "滴滴快车-王师傅"
   trade_time: "2020-07-28 21:23:51"
-  Liabilities:CreditCard:交通银行4830  -16.81 CNY
-  Expenses:Transport:打车             16.81 CNY
+  Liabilities:CreditCard:交通银行4830  16.81 CNY
+  Expenses:Transport:打车            16.81 CNY
 
 2020-07-28 * "你来我往美食工坊" "你来我往美食工坊-锐创国际店"
   trade_time: "2020-07-28 18:44:00"
-  Liabilities:CreditCard:交通银行4830  -9.00 CNY
-  Expenses:Food                     9.00 CNY
+  Liabilities:CreditCard:交通银行4830  9.00 CNY
+  Expenses:Food                    9.00 CNY
 
 2020-07-28 * "你来我往美食工坊" "你来我往美食工坊-锐创国际店"
   trade_time: "2020-07-28 12:41:39"
-  Liabilities:CreditCard:交通银行4830  -21.00 CNY
-  Expenses:Food                     21.00 CNY
+  Liabilities:CreditCard:交通银行4830  21.00 CNY
+  Expenses:Food                    21.00 CNY
 
 2020-07-28 * "滴滴出行" "滴滴专车-宋师傅"
   trade_time: "2020-07-28 09:42:21"
-  Liabilities:CreditCard:交通银行4830  -79.00 CNY
-  Expenses:Transport:打车             79.00 CNY
+  Liabilities:CreditCard:交通银行4830  79.00 CNY
+  Expenses:Transport:打车            79.00 CNY
 
 2020-07-27 * "滴滴出行" "滴滴快车-冯师傅"
   trade_time: "2020-07-27 22:14:53"
-  Liabilities:CreditCard:交通银行4830  -20.47 CNY
-  Expenses:Transport:打车             20.47 CNY
+  Liabilities:CreditCard:交通银行4830  20.47 CNY
+  Expenses:Transport:打车            20.47 CNY
 
 2020-07-27 * "饺子屋" "MTDP-饺子屋"
   trade_time: "2020-07-27 18:21:07"
-  Liabilities:CreditCard:交通银行4830  -19.00 CNY
-  Expenses:Food                     19.00 CNY
+  Liabilities:CreditCard:交通银行4830  19.00 CNY
+  Expenses:Food                    19.00 CNY
 
 2020-07-27 * "你来我往美食工坊" "你来我往美食工坊-锐创国际店"
   trade_time: "2020-07-27 12:29:45"
-  Liabilities:CreditCard:交通银行4830  -21.00 CNY
-  Expenses:Food                     21.00 CNY
+  Liabilities:CreditCard:交通银行4830  21.00 CNY
+  Expenses:Food                    21.00 CNY
 
 2020-07-26 * "芒果电单车" "芒果电单车-缴纳押金"
   trade_time: "2020-07-26 17:22:54"
-  Liabilities:CreditCard:交通银行4830  -299.00 CNY
-  Assets:Receivables:押金             299.00 CNY
+  Liabilities:CreditCard:交通银行4830  299.00 CNY
+  Unknown                          299.00 CNY
 
 2020-07-25 * "广州骑安" "单车"
   trade_time: "2020-07-25 16:45:46"
-  Liabilities:CreditCard:交通银行4830  -1.50 CNY
-  Expenses:Transport:单车             1.50 CNY
+  Liabilities:CreditCard:交通银行4830  1.50 CNY
+  Unknown                          1.50 CNY
 
 2020-07-25 * "大楠" "收款方备注:二维码收款"
   trade_time: "2020-07-25 16:39:53"
-  Assets:Cash:WeChat  -52.00 CNY
-  Unknown              52.00 CNY
 
 2020-07-25 * "宋博" "/"
   trade_time: "2020-07-25 00:17:57"
-  Assets:Cash:WeChat  -52.00 CNY
 
 2020-07-24 * "滴滴出行" "滴滴快车-梁师傅"
   trade_time: "2020-07-24 21:39:20"
-  Liabilities:CreditCard:交通银行4830  -36.68 CNY
-  Assets:Receivables:公司报销           36.68 CNY
+  Liabilities:CreditCard:交通银行4830  36.68 CNY
+  Assets:Receivables:公司报销          36.68 CNY
 
 2020-07-24 * "你来我往美食工坊" "你来我往美食工坊-锐创国际店"
   trade_time: "2020-07-24 12:35:09"
-  Liabilities:CreditCard:交通银行4830  -21.00 CNY
-  Expenses:Food                     21.00 CNY
+  Liabilities:CreditCard:交通银行4830  21.00 CNY
+  Expenses:Food                    21.00 CNY
 
 2020-07-24 * "🌸 、圆滚滚" "转账备注:微信转账"
   trade_time: "2020-07-24 12:19:38"
-  Assets:Cash:WeChat  180.00 CNY
 
 2020-07-24 * "全时恒电大厦店" "全时便利-望京恒电大厦店"
   trade_time: "2020-07-24 11:03:38"
-  Liabilities:CreditCard:交通银行4830  -5.50 CNY
-  Expenses:Food                     5.50 CNY
+  Liabilities:CreditCard:交通银行4830  5.50 CNY
+  Unknown                          5.50 CNY
 
 2020-07-24 * "滴滴出行" "滴滴快车-刚师傅"
   trade_time: "2020-07-24 09:53:50"
-  Liabilities:CreditCard:交通银行4830  -58.18 CNY
-  Expenses:Transport:打车             58.18 CNY
+  Liabilities:CreditCard:交通银行4830  58.18 CNY
+  Expenses:Transport:打车            58.18 CNY
 
 2020-07-23 * "滴滴出行" "滴滴专车-丁师傅"
   trade_time: "2020-07-23 21:54:52"
-  Liabilities:CreditCard:交通银行4830  -64.15 CNY
-  Assets:Receivables:公司报销           64.15 CNY
+  Liabilities:CreditCard:交通银行4830  64.15 CNY
+  Assets:Receivables:公司报销          64.15 CNY
 
 2020-07-23 * "Royal Tea皇茶（望京京辉大厦店）" "MTDP-Royal Tea皇茶（望京金辉大厦店）"
   trade_time: "2020-07-23 18:54:47"
-  Liabilities:CreditCard:交通银行4830  -1.10 CNY
-  Expenses:Food                     1.10 CNY
+  Liabilities:CreditCard:交通银行4830  1.10 CNY
+  Expenses:Food                    1.10 CNY
 
 2020-07-23 * "美团点评" "美团订单-20072310100000000001970702596421"
   trade_time: "2020-07-23 18:53:32"
-  Liabilities:CreditCard:交通银行4830  -9.90 CNY
-  Unknown                           9.90 CNY
+  Liabilities:CreditCard:交通银行4830  9.90 CNY
+  Unknown                          9.90 CNY
 
 2020-07-23 * "杭州小笼包" "杭州小笼包-金辉国际店可味美食广场"
   trade_time: "2020-07-23 18:30:34"
-  Liabilities:CreditCard:交通银行4830  -15.00 CNY
-  Expenses:Food                     15.00 CNY
+  Liabilities:CreditCard:交通银行4830  15.00 CNY
+  Expenses:Food                    15.00 CNY
 
 2020-07-23 * "你来我往美食工坊" "你来我往美食工坊-锐创国际店"
   trade_time: "2020-07-23 12:18:43"
-  Liabilities:CreditCard:交通银行4830  -19.00 CNY
-  Expenses:Food                     19.00 CNY
+  Liabilities:CreditCard:交通银行4830  19.00 CNY
+  Expenses:Food                    19.00 CNY
 
 2020-07-22 * "滴滴出行" "滴滴快车-韦师傅"
   trade_time: "2020-07-22 21:59:59"
-  Liabilities:CreditCard:交通银行4830  -29.48 CNY
-  Assets:Receivables:公司报销           29.48 CNY
+  Liabilities:CreditCard:交通银行4830  29.48 CNY
+  Assets:Receivables:公司报销          29.48 CNY
 
 2020-07-22 * "淮扬荟" "MTDP-淮扬荟"
   trade_time: "2020-07-22 18:42:07"
-  Liabilities:CreditCard:交通银行4830  -19.00 CNY
-  Expenses:Food                     19.00 CNY
+  Liabilities:CreditCard:交通银行4830  19.00 CNY
+  Expenses:Food                    19.00 CNY
 
 2020-07-21 * "滴滴出行" "滴滴快车-白师傅"
   trade_time: "2020-07-21 22:32:38"
-  Liabilities:CreditCard:交通银行4830  -56.88 CNY
-  Assets:Receivables:公司报销           56.88 CNY
+  Liabilities:CreditCard:交通银行4830  56.88 CNY
+  Assets:Receivables:公司报销          56.88 CNY
 
 2020-07-21 * "滴滴出行" "滴滴快车-刘师傅"
   trade_time: "2020-07-21 21:23:08"
-  Liabilities:CreditCard:交通银行4830  -17.71 CNY
-  Expenses:Transport:打车             17.71 CNY
+  Liabilities:CreditCard:交通银行4830  17.71 CNY
+  Expenses:Transport:打车            17.71 CNY
 
 2020-07-21 * "你来我往美食工坊" "你来我往美食工坊-锐创国际店"
   trade_time: "2020-07-21 18:20:20"
-  Liabilities:CreditCard:交通银行4830  -16.00 CNY
-  Expenses:Food                     16.00 CNY
+  Liabilities:CreditCard:交通银行4830  16.00 CNY
+  Expenses:Food                    16.00 CNY
 
 2020-07-21 * "滴滴出行" "滴滴快车-尹师傅"
   trade_time: "2020-07-21 09:17:20"
-  Liabilities:CreditCard:交通银行4830  -39.00 CNY
-  Expenses:Transport:打车             39.00 CNY
+  Liabilities:CreditCard:交通银行4830  39.00 CNY
+  Expenses:Transport:打车            39.00 CNY
 
 2020-07-20 * "滴滴出行" "滴滴快车-张师傅"
   trade_time: "2020-07-20 22:45:06"
-  Liabilities:CreditCard:交通银行4830  -16.41 CNY
-  Assets:Receivables:公司报销           16.41 CNY
+  Liabilities:CreditCard:交通银行4830  16.41 CNY
+  Assets:Receivables:公司报销          16.41 CNY
 
 2020-07-20 * "你来我往美食工坊" "你来我往美食工坊-锐创国际店"
   trade_time: "2020-07-20 18:28:41"
-  Liabilities:CreditCard:交通银行4830  -21.00 CNY
-  Expenses:Food                     21.00 CNY
+  Liabilities:CreditCard:交通银行4830  21.00 CNY
+  Expenses:Food                    21.00 CNY
 
 2020-07-20 * "你来我往美食工坊" "你来我往美食工坊-锐创国际店"
   trade_time: "2020-07-20 12:05:57"
-  Liabilities:CreditCard:交通银行4830  -20.00 CNY
-  Expenses:Food                     20.00 CNY
+  Liabilities:CreditCard:交通银行4830  20.00 CNY
+  Expenses:Food                    20.00 CNY
 
 2020-07-20 * "滴滴出行" "滴滴快车-王师傅"
   trade_time: "2020-07-20 09:41:47"
-  Liabilities:CreditCard:交通银行4830  -25.09 CNY
-  Expenses:Transport:打车             25.09 CNY
+  Liabilities:CreditCard:交通银行4830  25.09 CNY
+  Expenses:Transport:打车            25.09 CNY
 
 2020-07-19 * "二宝超市" "收款方备注:二维码收款"
   trade_time: "2020-07-19 19:54:48"
-  Assets:Cash:WeChat  -3.00 CNY
-  Expenses:Food        3.00 CNY
 
 2020-07-19 * "来电科技" "来电共享充电宝"
   trade_time: "2020-07-19 18:23:07"
-  Liabilities:CreditCard:交通银行4830  -4.00 CNY
-  Unknown                           4.00 CNY
+  Liabilities:CreditCard:交通银行4830  4.00 CNY
+  Unknown                          4.00 CNY
 
 2020-07-17 * "广州骑安" "单车"
   trade_time: "2020-07-17 21:05:52"
-  Liabilities:CreditCard:交通银行4830  -1.50 CNY
-  Expenses:Transport:单车             1.50 CNY
+  Liabilities:CreditCard:交通银行4830  1.50 CNY
+  Unknown                          1.50 CNY
 
 2020-07-17 * "城市爱情麻辣烫" "城市爱情麻辣烫"
   trade_time: "2020-07-17 19:11:04"
-  Liabilities:CreditCard:交通银行4830  -32.40 CNY
-  Expenses:Food                     32.40 CNY
+  Liabilities:CreditCard:交通银行4830  32.40 CNY
+  Unknown                          32.40 CNY
 
 2020-07-17 * "淮扬荟" "MTDP-淮扬荟"
   trade_time: "2020-07-17 12:56:30"
-  Liabilities:CreditCard:交通银行4830  -19.00 CNY
-  Expenses:Food                     19.00 CNY
+  Liabilities:CreditCard:交通银行4830  19.00 CNY
+  Expenses:Food                    19.00 CNY
 
 2020-07-16 * "滴滴出行" "滴滴专车-张师傅"
   trade_time: "2020-07-16 22:05:10"
-  Liabilities:CreditCard:交通银行4830  -57.12 CNY
-  Expenses:Transport:打车             57.12 CNY
+  Liabilities:CreditCard:交通银行4830  57.12 CNY
+  Expenses:Transport:打车            57.12 CNY
 
 2020-07-16 * "你来我往" "收款方备注:二维码收款"
   trade_time: "2020-07-16 18:23:56"
-  Assets:Cash:WeChat  -3.00 CNY
-  Unknown              3.00 CNY
 
 2020-07-16 * "你来我往美食工坊" "你来我往美食工坊-锐创国际店"
   trade_time: "2020-07-16 18:23:16"
-  Liabilities:CreditCard:交通银行4830  -21.00 CNY
-  Expenses:Food                     21.00 CNY
+  Liabilities:CreditCard:交通银行4830  21.00 CNY
+  Expenses:Food                    21.00 CNY
 
 2020-07-16 * "淮扬荟" "MTDP-淮扬荟"
   trade_time: "2020-07-16 13:28:03"
-  Liabilities:CreditCard:交通银行4830  -21.60 CNY
-  Expenses:Food                     21.60 CNY
+  Liabilities:CreditCard:交通银行4830  21.60 CNY
+  Expenses:Food                    21.60 CNY
 
 2020-07-16 * "全时恒电大厦店" "全时便利-望京恒电大厦店"
   trade_time: "2020-07-16 09:06:13"
-  Liabilities:CreditCard:交通银行4830  -8.30 CNY
-  Expenses:Food                     8.30 CNY
+  Liabilities:CreditCard:交通银行4830  8.30 CNY
+  Unknown                          8.30 CNY
 
 2020-07-15 * "滴滴出行" "滴滴快车-丁师傅"
   trade_time: "2020-07-15 22:36:08"
-  Liabilities:CreditCard:交通银行4830  -17.32 CNY
-  Assets:Receivables:公司报销           17.32 CNY
+  Liabilities:CreditCard:交通银行4830  17.32 CNY
+  Assets:Receivables:公司报销          17.32 CNY
 
 2020-07-15 * "原汁牛肉" "MTDP-原汁牛肉"
   trade_time: "2020-07-15 18:41:05"
-  Liabilities:CreditCard:交通银行4830  -19.00 CNY
-  Expenses:Food                     19.00 CNY
+  Liabilities:CreditCard:交通银行4830  19.00 CNY
+  Expenses:Food                    19.00 CNY
 
 2020-07-15 * "你来我往" "收款方备注:二维码收款"
   trade_time: "2020-07-15 12:51:05"
-  Assets:Cash:WeChat  -5.00 CNY
-  Unknown              5.00 CNY
 
 2020-07-15 * "你来我往美食工坊" "你来我往美食工坊-锐创国际店"
   trade_time: "2020-07-15 12:50:00"
-  Liabilities:CreditCard:交通银行4830  -15.00 CNY
-  Expenses:Food                     15.00 CNY
+  Liabilities:CreditCard:交通银行4830  15.00 CNY
+  Expenses:Food                    15.00 CNY
 
 2020-07-15 * "全时恒电大厦店" "全时便利-望京恒电大厦店"
   trade_time: "2020-07-15 10:35:59"
-  Liabilities:CreditCard:交通银行4830  -8.30 CNY
-  Expenses:Food                     8.30 CNY
+  Liabilities:CreditCard:交通银行4830  8.30 CNY
+  Unknown                          8.30 CNY
 
 2020-07-14 * "滴滴出行" "滴滴快车-梅师傅"
   trade_time: "2020-07-14 22:55:22"
-  Liabilities:CreditCard:交通银行4830  -31.87 CNY
-  Assets:Receivables:公司报销           31.87 CNY
+  Liabilities:CreditCard:交通银行4830  31.87 CNY
+  Assets:Receivables:公司报销          31.87 CNY
 
 2020-07-14 * "滴滴出行" "滴滴快车-汪师傅"
   trade_time: "2020-07-14 21:37:54"
-  Liabilities:CreditCard:交通银行4830  -17.91 CNY
-  Assets:Receivables:公司报销           17.91 CNY
+  Liabilities:CreditCard:交通银行4830  17.91 CNY
+  Assets:Receivables:公司报销          17.91 CNY
 
 2020-07-14 * "陕西biangbiang面云南过桥米线" "陕西biangbiang面云南过桥米线-锐创国际店"
   trade_time: "2020-07-14 19:06:27"
-  Liabilities:CreditCard:交通银行4830  -18.00 CNY
-  Unknown                           18.00 CNY
+  Liabilities:CreditCard:交通银行4830  18.00 CNY
+  Unknown                          18.00 CNY
 
 2020-07-14 * "你来我往" "收款方备注:二维码收款"
   trade_time: "2020-07-14 19:04:08"
-  Assets:Cash:WeChat  -5.00 CNY
-  Unknown              5.00 CNY
 
 2020-07-14 * "你来我往美食工坊" "你来我往美食工坊-锐创国际店"
   trade_time: "2020-07-14 12:28:52"
-  Liabilities:CreditCard:交通银行4830  -19.00 CNY
-  Expenses:Food                     19.00 CNY
+  Liabilities:CreditCard:交通银行4830  19.00 CNY
+  Expenses:Food                    19.00 CNY
 
 2020-07-14 * "滴滴出行" "滴滴专车-胡师傅"
   trade_time: "2020-07-14 09:46:29"
-  Liabilities:CreditCard:交通银行4830  -49.20 CNY
-  Expenses:Transport:打车             49.20 CNY
+  Liabilities:CreditCard:交通银行4830  49.20 CNY
+  Expenses:Transport:打车            49.20 CNY
 
 2020-07-14 * "YHuang" "/"
   trade_time: "2020-07-14 00:22:34"
-  Assets:Cash:WeChat  0.29 CNY
 
 2020-07-13 * "滴滴出行" "滴滴快车-李师傅"
   trade_time: "2020-07-13 23:10:18"
-  Liabilities:CreditCard:交通银行4830  -15.81 CNY
-  Expenses:Transport:打车             15.81 CNY
+  Liabilities:CreditCard:交通银行4830  15.81 CNY
+  Expenses:Transport:打车            15.81 CNY
 
 2020-07-13 * "淮扬荟" "MTDP-淮扬荟"
   trade_time: "2020-07-13 18:17:54"
-  Liabilities:CreditCard:交通银行4830  -19.00 CNY
-  Expenses:Food                     19.00 CNY
+  Liabilities:CreditCard:交通银行4830  19.00 CNY
+  Expenses:Food                    19.00 CNY
 
 2020-07-13 * "椒傲少年米线" "MTDP-椒傲少年米线"
   trade_time: "2020-07-13 12:48:12"
-  Liabilities:CreditCard:交通银行4830  -23.00 CNY
-  Expenses:Food                     23.00 CNY
+  Liabilities:CreditCard:交通银行4830  23.00 CNY
+  Expenses:Food                    23.00 CNY
 
 2020-07-12 * "肯德基" "KFC_MALLNEWWXKZJ905015892333"
   trade_time: "2020-07-12 14:16:08"
-  Liabilities:CreditCard:交通银行4830  -8.80 CNY
-  Unknown                           8.80 CNY
+  Liabilities:CreditCard:交通银行4830  8.80 CNY
+  Unknown                          8.80 CNY
 
 2020-07-12 * "蜜蜂出行" "用户骑行用车"
   trade_time: "2020-07-12 12:47:56"
-  Liabilities:CreditCard:交通银行4830  -3.00 CNY
-  Unknown                           3.00 CNY
+  Liabilities:CreditCard:交通银行4830  3.00 CNY
+  Unknown                          3.00 CNY
 
 2020-07-11 * "上海何勇企业管理有限公司" "支付码321336剪花娘子北京望京凯德餐厅微信餐厅(6848179376601702456)"
   trade_time: "2020-07-11 19:13:42"
-  Liabilities:CreditCard:交通银行4830  -44.00 CNY
-  Expenses:Food                     44.00 CNY
+  Liabilities:CreditCard:交通银行4830  44.00 CNY
+  Expenses:Food                    44.00 CNY
 
 2020-07-11 * "阿芮烤鸡爪" "阿芮烤鸡爪望京店-扫码付-YY00301-200711-01101822"
   trade_time: "2020-07-11 18:23:38"
-  Liabilities:CreditCard:交通银行4830  -45.00 CNY
-  Unknown                           45.00 CNY
+  Liabilities:CreditCard:交通银行4830  45.00 CNY
+  Unknown                          45.00 CNY
 
 2020-07-11 * "和合谷" "订单日期：20200711114324 订单机构：100 订单类型：消费"
   trade_time: "2020-07-11 11:43:26"
-  Liabilities:CreditCard:交通银行4830  -37.80 CNY
-  Expenses:Food                     37.80 CNY
+  Liabilities:CreditCard:交通银行4830  37.80 CNY
+  Unknown                          37.80 CNY
 
 2020-07-10 * "滴滴出行" "滴滴专车-曹师傅"
   trade_time: "2020-07-10 21:34:42"
-  Liabilities:CreditCard:交通银行4830  -50.64 CNY
-  Assets:Receivables:公司报销           50.64 CNY
+  Liabilities:CreditCard:交通银行4830  50.64 CNY
+  Assets:Receivables:公司报销          50.64 CNY
 
 2020-07-10 * "放飞心情" "收款方备注:二维码收款"
   trade_time: "2020-07-10 18:46:13"
-  Assets:Cash:WeChat  -5.00 CNY
-  Unknown              5.00 CNY
 
 2020-07-10 * "家的味道" "家的味道-锐创国际店"
   trade_time: "2020-07-10 18:40:51"
-  Liabilities:CreditCard:交通银行4830  -16.00 CNY
-  Unknown                           16.00 CNY
+  Liabilities:CreditCard:交通银行4830  16.00 CNY
+  Unknown                          16.00 CNY
 
 2020-07-09 * "你来我往美食工坊" "你来我往美食工坊-锐创国际店"
   trade_time: "2020-07-09 18:31:33"
-  Liabilities:CreditCard:交通银行4830  -19.00 CNY
-  Expenses:Food                     19.00 CNY
+  Liabilities:CreditCard:交通银行4830  19.00 CNY
+  Expenses:Food                    19.00 CNY
 
 2020-07-09 * "滴滴出行" "滴滴快车-朱师傅"
   trade_time: "2020-07-09 13:14:20"
-  Liabilities:CreditCard:交通银行4830  -17.91 CNY
-  Expenses:Transport:打车             17.91 CNY
+  Liabilities:CreditCard:交通银行4830  17.91 CNY
+  Expenses:Transport:打车            17.91 CNY
 
 2020-07-09 * "淮扬荟" "MTDP-淮扬荟"
   trade_time: "2020-07-09 12:34:58"
-  Liabilities:CreditCard:交通银行4830  -19.00 CNY
-  Expenses:Food                     19.00 CNY
+  Liabilities:CreditCard:交通银行4830  19.00 CNY
+  Expenses:Food                    19.00 CNY
 
 2020-07-09 * "滴滴出行" "滴滴专车-闫师傅"
   trade_time: "2020-07-09 09:39:14"
-  Liabilities:CreditCard:交通银行4830  -58.80 CNY
-  Expenses:Transport:打车             58.80 CNY
+  Liabilities:CreditCard:交通银行4830  58.80 CNY
+  Expenses:Transport:打车            58.80 CNY
 
 2020-07-08 * "滴滴出行" "滴滴快车-李师傅"
   trade_time: "2020-07-08 21:44:50"
-  Liabilities:CreditCard:交通银行4830  -18.08 CNY
-  Assets:Receivables:公司报销           18.08 CNY
+  Liabilities:CreditCard:交通银行4830  18.08 CNY
+  Assets:Receivables:公司报销          18.08 CNY
 
 2020-07-08 * "No.13" "MTDP-星月No.13"
   trade_time: "2020-07-08 19:59:22"
-  Liabilities:CreditCard:交通银行4830  -35.00 CNY
-  Expenses:Food                     35.00 CNY
+  Liabilities:CreditCard:交通银行4830  35.00 CNY
+  Expenses:Food                    35.00 CNY
 
 2020-07-08 * "淮扬荟" "MTDP-淮扬荟"
   trade_time: "2020-07-08 12:47:30"
-  Liabilities:CreditCard:交通银行4830  -24.00 CNY
-  Expenses:Food                     24.00 CNY
+  Liabilities:CreditCard:交通银行4830  24.00 CNY
+  Expenses:Food                    24.00 CNY
 
 2020-07-08 * "滴滴出行" "滴滴专车-安师傅"
   trade_time: "2020-07-08 09:45:00"
-  Liabilities:CreditCard:交通银行4830  -49.12 CNY
-  Expenses:Transport:打车             49.12 CNY
+  Liabilities:CreditCard:交通银行4830  49.12 CNY
+  Expenses:Transport:打车            49.12 CNY
 
 2020-07-07 * "滴滴出行" "滴滴快车-邓师傅"
   trade_time: "2020-07-07 22:50:06"
-  Liabilities:CreditCard:交通银行4830  -9.04 CNY
-  Assets:Receivables:公司报销           9.04 CNY
+  Liabilities:CreditCard:交通银行4830  9.04 CNY
+  Assets:Receivables:公司报销          9.04 CNY
 
 2020-07-07 * "你来我往美食工坊" "你来我往美食工坊-锐创国际店"
   trade_time: "2020-07-07 18:24:13"
-  Liabilities:CreditCard:交通银行4830  -12.00 CNY
-  Expenses:Food                     12.00 CNY
+  Liabilities:CreditCard:交通银行4830  12.00 CNY
+  Expenses:Food                    12.00 CNY
 
 2020-07-07 * "No.13" "MTDP-星月No.13"
   trade_time: "2020-07-07 13:03:20"
-  Liabilities:CreditCard:交通银行4830  -35.00 CNY
-  Expenses:Food                     35.00 CNY
+  Liabilities:CreditCard:交通银行4830  35.00 CNY
+  Expenses:Food                    35.00 CNY
 
 2020-07-07 * "滴滴出行" "滴滴专车-程师傅"
   trade_time: "2020-07-07 10:20:52"
-  Liabilities:CreditCard:交通银行4830  -47.68 CNY
-  Expenses:Transport:打车             47.68 CNY
+  Liabilities:CreditCard:交通银行4830  47.68 CNY
+  Expenses:Transport:打车            47.68 CNY
 
 2020-07-06 * "滴滴出行" "滴滴快车-王师傅"
   trade_time: "2020-07-06 21:37:55"
-  Liabilities:CreditCard:交通银行4830  -34.87 CNY
-  Assets:Receivables:公司报销           34.87 CNY
+  Liabilities:CreditCard:交通银行4830  34.87 CNY
+  Assets:Receivables:公司报销          34.87 CNY
 
 2020-07-06 * "淮扬荟" "MTDP-淮扬荟"
   trade_time: "2020-07-06 13:06:26"
-  Liabilities:CreditCard:交通银行4830  -21.60 CNY
-  Expenses:Food                     21.60 CNY
+  Liabilities:CreditCard:交通银行4830  21.60 CNY
+  Expenses:Food                    21.60 CNY
 
 2020-07-06 * "好适口餐饮管理有限公司" "24明天第一城店-扫码付-YY03501-200706-00600916"
   trade_time: "2020-07-06 09:18:23"
-  Liabilities:CreditCard:交通银行4830  -18.80 CNY
-  Expenses:Food                     18.80 CNY
+  Liabilities:CreditCard:交通银行4830  18.80 CNY
+  Expenses:Food                    18.80 CNY
 
 2020-07-04 * "街电科技" "街电充电宝免押租借订单"
   trade_time: "2020-07-04 21:52:16"
-  Assets:Bank:中国银行1886  -6.00 CNY
-  Unknown                6.00 CNY
+  Assets:Bank:中国银行1886  6.00 CNY
+  Unknown               6.00 CNY
 
 2020-07-04 * "北京麦当劳食品有限公司" "北京麦当劳食品有限公司"
   trade_time: "2020-07-04 20:13:02"
-  Liabilities:CreditCard:交通银行4830  -6.00 CNY
-  Expenses:Food                     6.00 CNY
+  Liabilities:CreditCard:交通银行4830  6.00 CNY
+  Unknown                          6.00 CNY
 
 2020-07-04 * "自动宝" "商品21"
   trade_time: "2020-07-04 17:06:32"
-  Liabilities:CreditCard:交通银行4830  -3.00 CNY
-  Unknown                           3.00 CNY
+  Liabilities:CreditCard:交通银行4830  3.00 CNY
+  Unknown                          3.00 CNY
 
 2020-07-02 * "家的味道" "家的味道-锐创国际店"
   trade_time: "2020-07-02 19:01:25"
-  Liabilities:CreditCard:交通银行4830  -10.00 CNY
-  Unknown                           10.00 CNY
+  Liabilities:CreditCard:交通银行4830  10.00 CNY
+  Unknown                          10.00 CNY
 
 2020-07-02 * "你来我往美食工坊" "你来我往美食工坊-锐创国际店"
   trade_time: "2020-07-02 12:08:00"
-  Liabilities:CreditCard:交通银行4830  -19.00 CNY
-  Expenses:Food                     19.00 CNY
+  Liabilities:CreditCard:交通银行4830  19.00 CNY
+  Expenses:Food                    19.00 CNY
 
 2020-07-01 * "滴滴出行" "滴滴快车-张师傅"
   trade_time: "2020-07-01 18:01:17"
-  Liabilities:CreditCard:交通银行4830  -19.27 CNY
-  Expenses:Transport:打车             19.27 CNY
+  Liabilities:CreditCard:交通银行4830  19.27 CNY
+  Expenses:Transport:打车            19.27 CNY

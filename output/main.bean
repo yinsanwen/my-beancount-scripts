@@ -2,12 +2,5 @@ option "operating_currency" "CNY" ;账本主货币
 
 
 include "accounts.bean"
-include "out.bean"
-
-
-2020-08-25 * "喜茶" "奶茶"
-    Expenses:Food 100 CNY
-    Liabilities:CreditCard
-
-   
-  
+include "202009-wechat.bean"
+include "202008-wechat.bean"

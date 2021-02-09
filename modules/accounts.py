@@ -103,3 +103,4 @@ incomes = {
 description_res = dict([(key, re.compile(key)) for key in descriptions])
 another_res = dict([(key, re.compile(key)) for key in anothers])
 income_res = dict([(key, re.compile(key)) for key in incomes])
+
